@@ -1,0 +1,43 @@
+.footer {
+    background-color: #7fff00;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.footer .banner {
+    height: 40px;
+}
+
+.soc-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soc-icons img {
+    height: 50%;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.soc-icons a{
+    font-weight: 300;
+    font-size: 30px;
+    color: #000;
+    text-decoration: underline 0.15em #7fff00;;
+    margin: 15px;
+}
+
+.soc-icons a:hover{
+    text-decoration: underline;
+    transition-property: text-decoration 0.15em #7fff00;
+    transition-duration: 0.22s;
+}
+

@@ -1,0 +1,37 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=PT+Serif&family=Prompt:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+  * {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .blog-title a{
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  nav a{
+    text-decoration: none;
+    text-underline-offset: 0;
+    color: rgb(6, 58, 0);
+    font-size: 2rem;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+  nav a:hover{
+    background-color: rgb(6, 58, 0);
+    color: white;
+    font-size: 2.5rem;
+    transition: font-size 0.2s;
+    border-radius: 11px;
+  }
+

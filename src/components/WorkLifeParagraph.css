@@ -1,0 +1,23 @@
+.WorkLifeForm {
+    border: solid 1px;
+    border-radius: 10px;
+    width: 90%;
+    height: 600px;
+    margin: 20px 0px 0px 0px;
+    background-color: #92ee97;
+    align-self: center;
+    justify-content: center;
+}
+
+.WorkLifeForm h2{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: 400;
+}
+
+
+.WorkLifeForm p{
+    margin-left: 10%;
+    font-weight: 200;
+    margin-right: 10%;
+}
